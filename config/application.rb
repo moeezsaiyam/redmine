@@ -42,7 +42,7 @@ module RedmineApp
     # config.i18n.default_locale = :de
 
     config.i18n.enforce_available_locales = true
-    config.i18n.fallbacks = true
+    config.i18n.fallbacks = [I18n.default_locale]
     config.i18n.default_locale = 'en'
 
     # Configure the default encoding used in templates for Ruby 1.9.
